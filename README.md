@@ -1,10 +1,10 @@
-# Image Glitcher
+# Glitch
 
-![Image Glitcher Banner](images/banner.png)
+![Glitch Banner](images/banner.png)
 
 ## Table of Contents
 
-- [Image Glitcher](#image-glitcher)
+- [Glitch](#glitch)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
@@ -32,7 +32,7 @@ This script is designed to quickly apply various glitch effects to images. This 
 ## Project Structure
 
 ```
-ImageGlitcher/
+Glitch/
 │
 ├── effects/
 │   ├── __init__.py
