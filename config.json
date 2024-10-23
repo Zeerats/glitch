@@ -1,0 +1,45 @@
+{
+    "input_folder": "input",
+    "output_folder": "output",
+    "effects_order": [
+        "distortion",
+        "gaussian",
+        "block",
+        "shift"
+    ],
+    "effects": {
+        "gaussian": {
+            "mean": 0.0,
+            "std": 25.0,
+            "rgb": true
+        },
+        "salt_pepper": {
+            "amount": 0.02,
+            "salt_vs_pepper": 0.5,
+            "rgb": true
+        },
+        "shift": {
+            "shift_range": [
+                -50,
+                50
+            ],
+            "num_lines": 20,
+            "shift_line_height": 3,
+            "rgb": false
+        },
+        "block": {
+            "block_size": 20,
+            "displacement": 50,
+            "num_blocks": 20,
+            "rgb": true
+        },
+        "distortion": {
+            "distortion_strength": 0
+        },
+        "rgb_shift": {
+            "distortion_strength": 10,
+            "num_bands": 10
+        }
+    },
+    "seed": 42
+}
